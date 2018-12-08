@@ -727,7 +727,7 @@ h3.agileits-title,h2.agileits-title{
 }
 .team h4 { 
     color: #fff;
-    font-size: 1em; 
+    font-size: 0.9em; 
 }
 .team .social-veeronlsicon {
     padding: .8em; 
@@ -1672,6 +1672,13 @@ h2.typoh2{
 	}
 }
 @media (max-width:480px){
+	
+	.veeronagile-caption h4{
+		font-size:0.7em !important;
+	}
+	.veeronagile-caption p{
+		font-size:0.5em !important;
+	}
 	.logo-img{
 		height:40px;
 		margin:0em 1em;
