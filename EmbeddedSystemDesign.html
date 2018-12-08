@@ -1,0 +1,188 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title>VEERON ENERGY INDIA PVT LTD</title>
+<link href="images/fav.png" rel="icon" type="image/jpg" />
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta name="keywords" content="" />
+<script type="application/x-javascript"> addEventListener("load", function() { setTimeout(hideURLbar, 0); }, false); function hideURLbar(){ window.scrollTo(0,1); } </script>
+<link href="css/bootstrap.css" type="text/css" rel="stylesheet" media="all">
+<link href="css/style.css" type="text/css" rel="stylesheet" media="all">
+<link href="fontawesome.min.css" type="text/css" rel="stylesheet" media="all"> 
+<link href="css/fade-carous.css" type="text/css" rel="stylesheet" media="all">  
+<link href="css/font-awesome.css" rel="stylesheet"><link href="//fonts.googleapis.com/css?family=Yanone+Kaffeesatz:200,300,400,700" rel="stylesheet">
+<link href='//fonts.googleapis.com/css?family=Roboto:400,100,100italic,300,300italic,400italic,500,500italic,700,700italic,900,900italic' rel='stylesheet' type='text/css'>
+</head>
+<body>
+	<div class="agileits-banner about-veeronlsbnr">
+		<div class="bnr-agileinfo">
+			<div class="top-nav veeron-agiletop">
+				<div class="container">
+					<div class="navbar-header veeronllogo">
+						<button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+							<span class="sr-only">Toggle navigation</span>
+							<span class="icon-bar"></span>
+							<span class="icon-bar"></span>
+							<span class="icon-bar"></span>
+						</button>  
+						<a href="index.html"><img class="logo-img" src="images/logo.png"/></a>
+					</div>
+					<div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+						<div class="veeronmenu navbar-right">
+							<ul class="nav navbar">
+								<li><a href="index.html">Home</a></li>
+								<li><a href="about.html" >About</a></li> 
+								<li><a href="gallery.html">Gallery</a></li>
+								<li><a href="#" class="dropdown-toggle active"  data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false"><span data-letters="Pages">Industries</span></a>
+									<ul class="dropdown-menu"> 
+										<li><a href="EmbeddedSystemDesign.html">Embedded System Design</a></li>
+										<li><a href="FPGABasedDesign.html">FPGA Based Design</a></li>
+										<li><a href="WirelessNetworking.html">Wireless Networking</a></li>
+										<li><a href="ConsumerElectronics.html">Consumer Electronics</a></li>
+									</ul>
+								</li>
+								<li><a href="contact.html">Contact</a></li>
+							</ul>
+						</div> 
+						<div class="clearfix"> </div>  
+					</div>
+				</div>	
+			</div>	
+			<div class="banner-veerontext about-veeronlsbnr-text"> 
+				<div class="container"> 
+					<h1>
+					  <a href="" class="typewrite" data-period="2000" data-type='[ "Embedded System Design", "Embedded System Design", "Embedded System Design", "Embedded System Design" ]'>
+						<span class="wrap"></span>
+					  </a>
+					</h1>
+				</div>  
+			</div> 
+		</div>
+	</div>
+	<div class="about agileinfo">
+		<div class="container"> 
+			<h1 class="agileits-title">Embedded System Design</h1>
+			<div class="col-sm-12">
+				<div class="cont-about"> 
+					<p>In today’s world of IoT-connected devices, there is an untapped market need to create more profound, more meaningful relationships with customers. Success depends upon translating those market needs into a complete solution that provides the exceptional user experience. Customers are no longer satisfied with the excellent performance of individual parts but expect seamless and flawless performance throughout a holistic system. Choosing a partner who can translate market need into breakthrough technologies has never been more critical in new product development</p><br>
+					<p>At Veeron Energy India Pvt Ltd we work with you to bring together a highly skilled, full-service team of focused experts in systems, electrical, software, and mechanical engineering. Our systems engineering approach works in tandem with you to help rethink what is possible in your new product launches. When our award-winning designers work seamlessly with our experienced engineers, the result is the kind of synergy that propels clients’ businesses beyond their expectations</p><br>
+				</div>
+			</div>  
+			<div class="clearfix"> </div>
+		</div>
+	</div>
+	<div class="footer-agile">
+		<div class="container">
+			<div class="footer-top-agileinfo"> 
+				<div class="social-icon col-md-6 col-xs-12 ">
+					<a href="#" class="social-button twit"><i class="fa fa-twitter"></i></a>
+					<a href="#" class="social-button fb"><i class="fa fa-facebook"></i></a> 
+					<a href="#" class="social-button ggl"><i class="fa fa-google-plus"></i></a> 
+					<a href="#" class="social-button in"><i class="fa fa-linkedin"></i></a> 
+				</div> 
+				<div class="copy-veeronlsright col-md-6 col-xs-12 "> 
+						<p>© 2018 Veeron. All rights reserved by <a href="#"> Veeron Energy India Pvt Limited.</a></p>
+				</div> 
+			</div>
+		</div>
+	</div>
+	<script>
+							var TxtType = function(el, toRotate, period) {
+							this.toRotate = toRotate;
+							this.el = el;
+							this.loopNum = 0;
+							this.period = parseInt(period, 10) || 2000;
+							this.txt = '';
+							this.tick();
+							this.isDeleting = false;
+						};
+
+						TxtType.prototype.tick = function() {
+							var i = this.loopNum % this.toRotate.length;
+							var fullTxt = this.toRotate[i];
+
+							if (this.isDeleting) {
+							this.txt = fullTxt.substring(0, this.txt.length - 1);
+							} else {
+							this.txt = fullTxt.substring(0, this.txt.length + 1);
+							}
+
+							this.el.innerHTML = '<span class="wrap">'+this.txt+'</span>';
+
+							var that = this;
+							var delta = 200 - Math.random() * 100;
+
+							if (this.isDeleting) { delta /= 2; }
+
+							if (!this.isDeleting && this.txt === fullTxt) {
+							delta = this.period;
+							this.isDeleting = true;
+							} else if (this.isDeleting && this.txt === '') {
+							this.isDeleting = false;
+							this.loopNum++;
+							delta = 500;
+							}
+
+							setTimeout(function() {
+							that.tick();
+							}, delta);
+						};
+
+						window.onload = function() {
+							var elements = document.getElementsByClassName('typewrite');
+							for (var i=0; i<elements.length; i++) {
+								var toRotate = elements[i].getAttribute('data-type');
+								var period = elements[i].getAttribute('data-period');
+								if (toRotate) {
+								  new TxtType(elements[i], JSON.parse(toRotate), period);
+								}
+							}
+							// INJECT CSS
+							var css = document.createElement("style");
+							css.type = "text/css";
+							css.innerHTML = ".typewrite > .wrap { border-right: 0.08em solid #fff}";
+							document.body.appendChild(css);
+						};
+					</script>
+	<script src="js/jquery-2.2.3.min.js"></script>  
+	<script src="js/jarallax.js"></script>
+	<script src="js/SmoothScroll.min.js"></script>
+	<script type="text/javascript">
+		/* init Jarallax */
+		$('.jarallax').jarallax({
+			speed: 0.5,
+			imgWidth: 1366,
+			imgHeight: 768
+		})
+	</script> 
+	<script type="text/javascript" src="js/move-top.js"></script>
+	<script type="text/javascript" src="js/easing.js"></script>	
+	<script type="text/javascript">
+			jQuery(document).ready(function($) {
+				$(".scroll").click(function(event){		
+					event.preventDefault();
+			
+			$('html,body').animate({scrollTop:$(this.hash).offset().top},1000);
+				});
+			});
+	</script>
+	<script type="text/javascript">
+		$(document).ready(function() {
+			/*
+			var defaults = {
+				containerID: 'toTop', // fading element id
+				containerHoverID: 'toTopHover', // fading element hover id
+				scrollSpeed: 1200,
+				easingType: 'linear' 
+			};
+			*/
+			
+			$().UItoTop({ easingType: 'easeOutQuart' });
+			
+		});
+	</script>
+    <script src="js/bootstrap.js"></script>
+</body>
+</html>
