@@ -92,10 +92,21 @@ ul.nav.navbar {
     font-family: 'Yanone Kaffeesatz', sans-serif;
 }
 .nav > li > a:hover, .nav > li > a:focus {
-    background: none;
+    background: none;	
 } 
-.top-nav ul li a:hover, .top-nav ul li a.active {
-    color: #E20602 !important;
+.top-nav ul li a:hover{
+	color: #1abc9c !important;
+    -webkit-border-radius: 2px;
+    -moz-border-radius: 2px;
+    border-radius: 2px;
+	-webkit-transform: scale(1.1);
+	-moz-transform: scale(1.1);
+	-o-transform: scale(1.1);
+	-ms-transform: scale(1.1);
+	transform: scale(1.1);
+}
+.top-nav ul li a.active {
+    color: #1abc9c !important;
     -webkit-border-radius: 2px;
     -moz-border-radius: 2px;
     border-radius: 2px;
@@ -107,9 +118,9 @@ ul.nav.navbar {
 }
 .top-nav .open > .dropdown-menu {
     display: block;
-    background: rgba(0, 0, 0, 0.12);
+    background: rgba(0, 0, 0, 5.12);
     margin-top: 2.3em;
-    left: -73%;
+    left: -83%;
 }
 .top-nav .open > .dropdown-menu li {
     margin: 0;
@@ -125,12 +136,12 @@ ul.nav.navbar {
     letter-spacing: 1px;
 }
 .top-nav .nav .open > a, .nav .open > a:hover, .nav .open > a:focus {
-    color: #FF5722;
+    color: #1ABC9C;
     border: none;
     background: none;
 }
 .top-nav .dropdown-menu > li > a:hover, .dropdown-menu > li > a:focus {
-    color: #FF5722;
+    color: #1ABC9C;
     text-decoration: none;
     background-color: transparent;
 }
@@ -316,7 +327,7 @@ h3.agileits-title,h2.agileits-title{
     margin-bottom: 0.1em;
 }
 .cont-about{
-	padding: 0px 35px;
+	padding: 0px 35px 20px;
 }
 .cont-about p{
 	font-size:1.2em;
@@ -892,6 +903,7 @@ a.veeroneffct-agile:hover .agile-figcap{
 	text-align: center;
 }
 .contact-text {
+	top:18px;
     padding: 1em; 
     -webkit-box-shadow: 5px 5px 13px rgba(0, 0, 0, 0.5);
     -moz-box-shadow: 5px 5px 13px rgba(0, 0, 0, 0.5);
